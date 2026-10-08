@@ -27,7 +27,7 @@ app.use(express.json());
 
 // Session Middleware
 app.use(session({
-    secret: process.env.SESSION_SECRET || 'codealpha_secret_key_2026',
+    secret: process.env.SESSION_SECRET || 'socialsphere_secret_key_2026',
     resave: false,
     saveUninitialized: false,
     cookie: {
@@ -56,7 +56,7 @@ app.use((req, res) => {
 
 app.listen(PORT, () => {
     console.log(`===================================================`);
-    console.log(`🚀 CodeAlpha Social Media Platform is running!`);
+    console.log(`🚀 SocialSphere is running!`);
     console.log(`🌐 Server active on http://localhost:${PORT}`);
     console.log(`===================================================`);
 });

@@ -1,11 +1,11 @@
--- Database Schema for CodeAlpha Social Media Platform
+-- Database Schema for SocialSphere
 
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT UNIQUE NOT NULL,
     email TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
-    bio TEXT DEFAULT 'Hello! I am using CodeAlpha Social.',
+    bio TEXT DEFAULT 'Hello! I am using SocialSphere.',
     avatar_url TEXT DEFAULT 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80',
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );

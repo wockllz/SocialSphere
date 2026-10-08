@@ -84,7 +84,7 @@ router.post('/register', (req, res) => {
         const passwordHash = bcrypt.hashSync(password, 10);
         const defaultAvatar = 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80';
         const finalAvatar = (avatar_url && avatar_url.trim()) ? avatar_url.trim() : defaultAvatar;
-        const finalBio = (bio && bio.trim()) ? bio.trim() : 'Hello! I am using CodeAlpha Social.';
+        const finalBio = (bio && bio.trim()) ? bio.trim() : 'Hello! I am using SocialSphere.';
 
         const stmt = db.prepare(`
             INSERT INTO users (username, email, password_hash, bio, avatar_url)

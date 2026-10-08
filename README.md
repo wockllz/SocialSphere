@@ -1,6 +1,6 @@
-# CodeAlpha Social Media Platform
+# SocialSphere
 
-A complete full-stack Social Media application built for the **CodeAlpha Full Stack Development Internship (Task 2)** submission.
+A complete full-stack social platform with posts, likes, comments, and user follows.
 
 ---
 
@@ -52,7 +52,7 @@ A complete full-stack Social Media application built for the **CodeAlpha Full St
 ## 📁 Project Structure
 
 ```
-CodeAlpha_SocialMediaPlatform/
+SocialSphere/
 ├── package.json          # Dependencies and npm scripts
 ├── server.js             # Express application entry point
 ├── db/
@@ -94,7 +94,7 @@ Ensure you have **Node.js** (v18+) and **npm** installed on your system.
 ### 2. Installation
 Navigate into the project directory and install dependencies:
 ```bash
-cd CodeAlpha_SocialMediaPlatform
+cd SocialSphere
 npm install
 ```
 
@@ -138,4 +138,4 @@ You can log in immediately using any of these seeded credentials:
 
 ## Author
 
-**Ntshuxeko Sambo** — CodeAlpha Full Stack Development Intern (Student ID: CA/DF1/260876)
+**Ntshuxeko Sambo** — Full-Stack Developer

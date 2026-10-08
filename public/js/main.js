@@ -1,4 +1,4 @@
-// CodeAlpha Social Media Platform - Frontend Interactivity
+// SocialSphere - Frontend Interactivity
 
 document.addEventListener('DOMContentLoaded', () => {
 

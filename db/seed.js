@@ -63,7 +63,7 @@ function seedDatabase() {
 
     const post1 = insertPost.run(
         u1Id,
-        'Just finished building my Full-Stack Social Media Platform for CodeAlpha internship! Express, SQLite, and EJS make such a clean stack. What do you all think? 🚀💻',
+        'Just finished building my Full-Stack Social Media Platform for this new build! Express, SQLite, and EJS make such a clean stack. What do you all think? 🚀💻',
         'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
         '-2 hours'
     );

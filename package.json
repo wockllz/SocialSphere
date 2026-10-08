@@ -1,7 +1,7 @@
 {
-  "name": "codealpha-social-media-platform",
+  "name": "socialsphere",
   "version": "1.0.0",
-  "description": "Full-Stack Social Media Platform built with Node.js, Express, EJS, and SQLite for CodeAlpha Internship Task 2",
+  "description": "Full-Stack Social Media Platform built with Node.js, Express, EJS, and SQLite for ",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,9 +12,9 @@
     "ejs",
     "sqlite",
     "social-media",
-    "codealpha"
+    "socialsphere"
   ],
-  "author": "CodeAlpha Developer",
+  "author": "Ntshuxeko Sambo",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
